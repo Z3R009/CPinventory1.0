@@ -1,0 +1,160 @@
+body {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.header {
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* Center the content horizontally */
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    /* Allow flex items to wrap to the next line */
+}
+
+.header-title {
+    position: sticky;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+.header img {
+    max-width: 50px;
+    padding-top: 10px;
+    margin-right: 20px;
+    /* Adjusted margin for better spacing */
+}
+
+.header nav {
+    margin-left: auto;
+    /* Align the button to the right */
+}
+
+.header button {
+    background-color: #fff;
+    color: #BCA37F;
+    /* Adjusted text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+    /* Added margin for spacing between the button and logo */
+    text-decoration: none;
+    /* Removed underlines from the button */
+}
+
+.header button a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    /* Center content vertically */
+    justify-content: center;
+    /* Center content horizontally */
+    width: 50px;
+    /* Set button width */
+    height: 50px;
+    /* Set button height */
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    /* Adjust margin for better spacing */
+    width: 100%;
+    /* Force width to take up full space */
+}
+
+/* card */
+
+.form-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px 0 rgba(31, 38, 135, 0.37);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+[type="number"],
+[type="date"],
+select[name="user_type"] {
+    width: 370px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+button[type="submit"] {
+    background-color: #31304D;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 190px;
+    font-size: 16px;
+    text-decoration: none;
+    float: right;
+}
+
+button {
+    background-color: #747264;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 190px;
+    font-size: 16px;
+    text-decoration: none;
+    float: left;
+}
+
+
+select[name="user_type"] {
+    width: 100%;
+}
+
+.close-button {
+    background-color: white;
+    color: #31304D;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 360px;
+    border: none;
+}

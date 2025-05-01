@@ -1,0 +1,9 @@
+REGEDIT4
+[HKEY_CURRENT_USER\Environment]
+"PHP_PEAR_SYSCONF_DIR"="C:\\xampp\\htdocs\\BAWASLA\\pear"
+"PHP_PEAR_INSTALL_DIR"="C:\\xampp\\htdocs\\BAWASLA\\pear\\pear"
+"PHP_PEAR_DOC_DIR"="C:\\xampp\\htdocs\\BAWASLA\\pear\\docs"
+"PHP_PEAR_BIN_DIR"="C:\\xampp\\htdocs\\BAWASLA\\pear"
+"PHP_PEAR_DATA_DIR"="C:\\xampp\\htdocs\\BAWASLA\\pear\\data"
+"PHP_PEAR_PHP_BIN"="C:\\xampp\\php\\php.exe"
+"PHP_PEAR_TEST_DIR"="C:\\xampp\\htdocs\\BAWASLA\\pear\\tests"
